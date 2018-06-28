@@ -120,4 +120,15 @@ in Windows cmd or PowerShell, set default lxss user to the regular user:
 > lxrun /setdefaultuser lnx-user-name
 ```
 
+## How to mount HOST(winows) directory in one-time
+
+```bash
+$ sudo mkdir /mnt/d
+$ sudo mount -t drvfs 'C:\mountpoint' /mnt/myvolume
+```
+
+If mountpoint has no drive letter, mount will not work next boot.
+
+[see here](https://blogs.msdn.microsoft.com/wsl/2017/04/18/file-system-improvements-to-the-windows-subsystem-for-linux/)
+
  
