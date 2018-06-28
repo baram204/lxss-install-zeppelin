@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 hadooppack=hadoop-2.9.0
-sparkpack=spark-2.3.1
+sparkpack=spark-2.3.0
 sparkhadooppack="${sparkpack}-bin-hadoop2.7"
 
 hadoopfile="${hadooppack}.tar.gz"
