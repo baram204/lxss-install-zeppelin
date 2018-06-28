@@ -21,7 +21,7 @@
 #
 # =============================================================================
 
-zepversion=zeppelin-0.7.3
+zepversion=zeppelin-0.8.0
 
 zeppack="${zepversion}-bin-all"
 zepfile="${zeppack}.tgz"
